@@ -1,0 +1,31 @@
+@font-face {
+                font-family: Hack;
+                src: url('/fonts/hack-regular.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            body {
+                background-color: rgb(102, 153, 255);
+                color: #fff;
+                font-size: 2.7vmin;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+			
+			*{
+				font-family: Hack;
+			}
+    
+            .content {
+                position: absolute;
+                left: 3.8vw;
+                top: 5.5vh;
+                height: 30vh;
+            }
+
+            .content .bodyHeadline {
+                margin: 3.5vh 0 1vh 0;
+                font-size: 5.1vmin;
+            }
